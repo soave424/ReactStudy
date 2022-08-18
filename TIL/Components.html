@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component</title>
+  </head>
+  <body>
+    <h1>Component</h1>
+    <h3>
+      <p>레고 블록 조립하듯 Components를 모아 전체 페이지를 구성함.</p>
+      <p>
+        입력을 받아서 출력을 하는 것이 JS function과 유사하지만 입력은 Props로
+        받고 출력은 React elements로 나옴. 붕어빵 틀은 Component / 붕어빵은
+        Element
+      </p>
+      <p>
+        Props : (Property,속성) Component의 속성, 컴포넌트에 전달할 다양한
+        정보를 담고 있는 자바스트립트 객체 , 붕어빵 속 재료(팥, 슈크림 등)
+      </p>
+      <p>Props 의 특징</p>
+      <p>
+        1. Read-Only : 값을 변경할 수 없다. 붕어빵 만들고 난 뒤 속재료 못 바꿈.
+        새로운 elements로 바꾸기, 모든 리액트 컴포넌트는 Props를 직접 바꿀 수
+        없고, 같은 Props에 대해서는 항상 같은 결과를 보여줄 것(Pure함수)
+      </p>
+      <p>Props의 사용법</p>
+      <p><.Profile name="A" introduction="h" viewCount={1500}/></p>
+      <p>Component 만들기</p>
+      <p>
+        Component의 종류 : Function Component와 Class Component(초기에 많이
+        사용했는데 불편-component의 불편함을 개선하기 위해 나온 것이 Hook)
+      </p>
+      <p>1. Function Component</p>
+      <p>간단,</p>
+      <p>2. Class Component</p>
+      <p>React.Component를 불러옴.</p>
+      <p>꼭 기억하기</p>
+      <p>
+        Component 이름은 항상 대문자로 시작해야 한다. 소문자는 HTML div로 인식
+      </p>
+      <p>
+        * Component 렌더링을 위해서는 Component로부터 Element를 만들어야 한다.
+      </p>
+    </h3>
+  </body>
+</html>

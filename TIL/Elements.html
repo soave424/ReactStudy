@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Element</title>
+  </head>
+  <body>
+    <h1>Rendering Element</h1>
+    <h3>
+      <p>Element are the smallest building blocks of React apps.</p>
+      <p>
+        리액트 앱을 구성하는 가장 작은 블록들 (Element는 어떤 물체를 구성하는
+        성분, 요소), 화면에서 보이는 것들을 기술한 것.
+      </p>
+      <p>
+        DOM Element : (HTML요소) React Element의 가상 표현이라고 생각하면 됨
+      </p>
+      <p>
+        화면에 나타나는 내용을 기술하는 자바스크립트 객체를 Descriptor이라고 함.
+        HTML에서 나오는 DOM Element와 비교하기 위해 나눠서 부름. DOM이 React보다
+        많은 정보를 가지고 있어서 무거움.
+      </p>
+      <p>
+        React Element는 자바스크립트 객체 형태로 존재. 한 번 "생성"되면
+        children이나 attributes를 바꿀 수 없음(immutable). 바꾸려면 새로운
+        element를 만들어서 바꿔치기 하기.
+        (https://www.oreilly.com/library/view/learning-react-native/9781491929049/ch02.html)
+      </p>
+      <p>Element 랜더링(기본(root) -> 업데이트할 때는 새로 만들어서 호출 )</p>
+      <p>index.html : <.div id="root"><./div></p>
+      index.js : const root =
+      ReactDOM.createRoot(document.getElementById("root"));
+    </h3>
+  </body>
+</html>

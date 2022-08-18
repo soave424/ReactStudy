@@ -13,7 +13,7 @@
 - [x] ReactJS(Vue, Angular와의 비교. 특징. 장점, 단점 등)
 - [x] ReactJS 설치 및 세팅 (create-react-app)
 - [x] JSX
-- [ ] 가상 DOM
+- [x] 가상 DOM
 
 ### Section 02. 리액트 입문
 
